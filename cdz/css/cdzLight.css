@@ -1,0 +1,152 @@
+/* Created by CDZ-Answers 2021 */
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 3px;
+    border: 1px solid #858585;
+}
+
+.task {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 0 14px 0;
+    border-radius: 8px;
+    width: 90%;
+    border: 2px solid #CCC;
+    background-color: #DDD;
+    color: #111;
+}
+
+.task.error {
+    border: 2px solid hsl(0, 100%, 45%);
+}
+
+.task.free {
+    border: 2px solid hsl(50, 100%, 40%);
+}
+
+.task.success {
+    border: 2px solid hsl(130, 100%, 30%);
+}
+
+#answerOption {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#textWithImg {
+    text-align: -webkit-center;
+    align-items: center;
+    width: 25%;
+}
+
+#taskImg {
+    margin: 5px;
+    width: 85%;
+}
+
+#questionText {
+    display: block;
+    width: 100%;
+    text-align: left;
+    color: #111111;
+    padding: 9px, 0, 0, 0;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+#answerText {
+    display: block;
+    width: 100%;
+    text-align: left;
+    color: #111111;
+    padding: 9px, 0, 0, 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+#questionData {
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 55px;
+    font-family: Arial, sans-serif;
+}
+
+#answerData {
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 55px;
+    font-family: Arial, sans-serif;
+}
+
+@media screen and (min-width: 319px) {
+    .task {
+        border-radius: 20px;
+    }
+    #questionText {
+        font-size: 36px;
+    }
+    #answerText {
+        font-size: 36px;
+    }
+    #questionData {
+        font-size: 55px;
+    }
+    #answerData {
+        font-size: 55px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .task {
+        border-radius: 20px;
+    }
+    #questionText {
+        font-size: 35px;
+    }
+    #answerText {
+        font-size: 35px;
+    }
+    #questionData {
+        font-size: 40px;
+    }
+    #answerData {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .task {
+        border-radius: 10px;
+        margin: 0 0 12px 0;
+    }
+    #questionText {
+        font-size: 18px;
+    }
+    #answerText {
+        font-size: 18px;
+    }
+    #questionData {
+        font-size: 23px;
+    }
+    #answerData {
+        font-size: 23px;
+    }
+}
