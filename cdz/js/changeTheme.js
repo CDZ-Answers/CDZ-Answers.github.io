@@ -15,9 +15,9 @@ function changeStylesheetBtn(chboxElementId) {
 
     document.cookie = `stylesheet=${stylesheet};path=/`;
 
-    document.getElementById('mainStylesheet').setAttribute('href', `/static/css/main${stylesheet}.css`);
-    document.getElementById('cdzStylesheet').setAttribute('href', `/static/cdz/css/cdz${stylesheet}.css`);
+    document.getElementById('mainStylesheet').setAttribute('href', `https://cdz-answers.github.io/main/css/main${stylesheet}.css`);
+    document.getElementById('cdzStylesheet').setAttribute('href', `https://cdz-answers.github.io/cdz/css/cdz${stylesheet}.css`);
 
-    document.getElementById('sunImg').setAttribute('src', `/static/images/${iconColor}SunStyle.png`);
-    document.getElementById('moonImg').setAttribute('src', `/static/images/${iconColor}MoonStyle.png`);
+    document.getElementById('sunImg').setAttribute('src', `https://cdz-answers.github.io/main/images/${iconColor}SunStyle.png`);
+    document.getElementById('moonImg').setAttribute('src', `https://cdz-answers.github.io/main/images/${iconColor}MoonStyle.png`);
 }
