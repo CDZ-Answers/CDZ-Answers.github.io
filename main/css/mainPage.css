@@ -1,0 +1,23 @@
+/* Created by CDZ-Answers 2021 */
+
+.cdzFunctional {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#servicesLogo {
+	justify-content: center;
+}
+
+#serviceLogo {
+	margin: 5px;
+	width: 20%;
+	min-width: 50px;
+	max-width: 300px;
+}
+
+#pText{
+	margin-top: 0;
+	font-size: 1.3em;
+	font-family: Arial, sans-serif;
+}
