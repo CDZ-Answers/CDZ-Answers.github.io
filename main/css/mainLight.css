@@ -18,47 +18,13 @@ body {
     text-decoration: none;
     margin: 10px;
     margin-left: 20px;
+    font-size: 26px;
 }
 
 #copyrightText {
     margin: 10px;
     margin-bottom: 0;
-}
-
-@media (min-width: 320px) {
-    #logoName {
-        font-size: 7vw;
-    }
-    #copyrightText {
-        font-size: 5vw;
-    }
-}
-
-@media (min-width: 540px) {
-    #logoName {
-        font-size: 4vw;
-    }
-    #copyrightText {
-        font-size: 3vw;
-    }
-}
-
-@media (min-width: 750px) {
-    #logoName {
-        font-size: 4.5vw;
-    }
-    #copyrightText {
-        font-size: 3vw;
-    }
-}
-
-@media (min-width: 1024px) {
-    #logoName {
-        font-size: xx-large;
-    }
-    #copyrightText {
-        font-size: large;
-    }
+    font-size: 17px;
 }
 
 #main {
