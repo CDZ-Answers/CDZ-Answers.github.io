@@ -50,104 +50,25 @@ td {
     width: 85%;
 }
 
-#questionText {
+#questionText, #answerText {
     display: block;
     width: 100%;
     text-align: left;
-    color: #111111;
     padding: 9px, 0, 0, 0;
     margin-top: 8px;
     margin-bottom: 10px;
     margin-left: 10px;
-    font-size: 27px;
+    font-size: 20px;
 }
 
-#answerText {
-    display: block;
-    width: 100%;
-    text-align: left;
-    color: #111111;
-    padding: 9px, 0, 0, 0;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    font-size: 27px;
-}
-
-#questionData {
+#questionData, #answerData {
     display: flex;
     flex-direction: column;
     width: 96%;
     text-align: left;
     margin-left: 15px;
     margin-bottom: 10px;
-    font-size: 35px;
+    color: #FFF;
+    font-size: 24px;
     font-family: Arial, sans-serif;
-}
-
-#answerData {
-    display: flex;
-    flex-direction: column;
-    width: 96%;
-    text-align: left;
-    margin-left: 15px;
-    margin-bottom: 10px;
-    font-size: 35px;
-    font-family: Arial, sans-serif;
-}
-
-@media screen and (min-width: 280px) {
-    .task {
-        border-radius: 15px;
-        margin: 0 0 10px 0;
-    }
-    #questionText {
-        font-size: 20px;
-    }
-    #answerText {
-        font-size: 20px;
-    }
-    #questionData {
-        font-size: 24px;
-    }
-    #answerData {
-        font-size: 24px;
-    }
-}
-
-@media screen and (min-width: 750px) {
-    .task {
-        border-radius: 15px;
-    }
-    #questionText {
-        font-size: 22px;
-    }
-    #answerText {
-        font-size: 22px;
-    }
-    #questionData {
-        font-size: 27px;
-    }
-    #answerData {
-        font-size: 27px;
-    }
-}
-
-@media screen and (min-width: 1400px) {
-    .task {
-        border-radius: 10px;
-        margin: 0 0 12px 0;
-    }
-    #questionText {
-        font-size: 19px;
-    }
-    #answerText {
-        font-size: 19px;
-    }
-    #questionData {
-        font-size: 23px;
-    }
-    #answerData {
-        font-size: 23px;
-    }
 }
