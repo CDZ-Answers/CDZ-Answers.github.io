@@ -17,7 +17,6 @@ td {
     width: 90%;
     border: 2px solid #CCC;
     background-color: #DDD;
-    color: #111;
 }
 
 .task.error {
@@ -54,6 +53,7 @@ td {
     display: block;
     width: 100%;
     text-align: left;
+    color: #555;
     padding: 9px, 0, 0, 0;
     margin-top: 8px;
     margin-bottom: 10px;
@@ -68,7 +68,7 @@ td {
     text-align: left;
     margin-left: 15px;
     margin-bottom: 10px;
-    color: #FFF;
+    color: black;
     font-size: 24px;
     font-family: Arial, sans-serif;
 }
