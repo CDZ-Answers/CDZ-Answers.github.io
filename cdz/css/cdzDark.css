@@ -15,9 +15,9 @@ td {
     margin: 0 0 14px 0;
     border-radius: 8px;
     width: 90%;
+    word-wrap: break-word;
     border: 2px solid #404040;
     background-color: #393939;
-    color: #969696;
 }
 
 .task.error {
@@ -39,21 +39,32 @@ td {
     margin-bottom: 10px;
 }
 
-#textWithImg {
-    text-align: -webkit-center;
+#answerRow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
-    width: 25%;
+    margin-bottom: 5px;
+}
+
+#textWithImg {
+    display: flex;
+    flex-direction: column;
 }
 
 #taskImg {
     margin: 5px;
-    width: 85%;
+    min-width: 150px;
+    max-width: 400px;
+    max-height: 400px;
+    width: 40%;
 }
 
 #questionText, #answerText {
     display: block;
     width: 100%;
     text-align: left;
+    color: #969696;
     padding: 9px, 0, 0, 0;
     margin-top: 8px;
     margin-bottom: 10px;
