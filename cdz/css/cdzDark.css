@@ -34,17 +34,10 @@ td {
 
 #answerOption {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-#answerRow {
-    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 #textWithImg {
