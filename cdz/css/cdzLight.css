@@ -15,6 +15,7 @@ td {
     margin: 0 0 14px 0;
     border-radius: 8px;
     width: 90%;
+    word-wrap: break-word;
     border: 2px solid #CCC;
     background-color: #DDD;
 }
@@ -33,20 +34,23 @@ td {
 
 #answerOption {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     margin-bottom: 10px;
 }
 
 #textWithImg {
-    text-align: -webkit-center;
-    align-items: center;
-    width: 25%;
+    display: flex;
+    flex-direction: column;
 }
 
 #taskImg {
     margin: 5px;
-    width: 85%;
+    min-width: 150px;
+    max-width: 400px;
+    max-height: 400px;
+    width: 40%;
 }
 
 #questionText, #answerText {
