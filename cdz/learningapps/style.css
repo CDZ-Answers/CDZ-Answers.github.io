@@ -1,0 +1,22 @@
+#mainimage {
+  position:relative;
+  min-width: 150px;
+  max-width: 600px;
+}
+
+#baseimg {
+  width: 100%;
+  vertical-align: text-top;
+}
+
+.marker{
+    position:absolute;
+}
+.marker svg {
+    width:32px;
+    height:32px;
+    top: -8px;
+    left: -5px;
+    position: relative;
+    border-radius: 100%;
+}
