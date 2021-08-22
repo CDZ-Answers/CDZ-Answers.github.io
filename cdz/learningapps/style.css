@@ -1,17 +1,20 @@
+/* Created by CDZ-Answers 2021 */
+
 #mainimage {
-  position:relative;
-  min-width: 150px;
-  max-width: 600px;
+    position:relative;
+    min-width: 150px;
+    max-width: 600px;
 }
 
 #baseimg {
-  width: 100%;
-  vertical-align: text-top;
+    width: 100%;
+    vertical-align: text-top;
 }
 
 .marker{
     position:absolute;
 }
+
 .marker svg {
     width:32px;
     height:32px;
