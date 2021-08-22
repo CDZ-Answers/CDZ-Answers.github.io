@@ -37,7 +37,6 @@ td {
 
 #answerOption {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     margin-bottom: 10px;
