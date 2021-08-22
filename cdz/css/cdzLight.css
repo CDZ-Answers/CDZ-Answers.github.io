@@ -44,17 +44,22 @@ td {
 }
 
 #textWithImg {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
-    width: min-content;
+    margin: 5px;
+    width: 60%;
+    min-width: 150px;
+    max-width: 400px;
+    align-items: center;
+    text-align: center;
 }
 
 #taskImg {
-    margin: 5px;
+    margin-bottom: 5px;
+    width: 100%;
     min-width: 150px;
     max-width: 400px;
     max-height: 400px;
-    width: 40%;
 }
 
 #questionText, #answerText {
