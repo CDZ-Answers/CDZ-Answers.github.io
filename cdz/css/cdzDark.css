@@ -46,6 +46,7 @@ td {
 #textWithImg {
     display: flex;
     flex-direction: column;
+    width: min-content;
 }
 
 #taskImg {
