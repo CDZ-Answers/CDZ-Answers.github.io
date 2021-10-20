@@ -10,6 +10,10 @@ td {
     border: 1px solid #858585;
 }
 
+li {
+    margin: 0 0 7px 0;
+}
+
 .task {
     display: inline-block;
     position: relative;
