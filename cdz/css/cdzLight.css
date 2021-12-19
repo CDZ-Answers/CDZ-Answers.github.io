@@ -24,7 +24,8 @@ li {
     overflow: auto;
     word-wrap: break-word;
     border: 2px solid #CCC;
-    background-color: #DDD;
+    /*background-color: #DDD;*/
+    background-color: rgba(221, 221, 221, 0.8);
 }
 
 .task.error {
